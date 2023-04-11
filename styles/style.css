@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  background-image: url(img/Rectangle1.jpg);
+  background-image: url(/img/Rectangle1.jpg);
   height: 1024px;
   background-size: cover;
   background-position: center;
@@ -139,5 +139,3 @@ body {
     width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */
-
-/* no se que paso
