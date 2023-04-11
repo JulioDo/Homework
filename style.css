@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  background-image: url(img/Rectangle1.jpg);
+  height: 1024px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header__heading_uno {
+  max-width: 750px;
+  padding-top: 217px;
+  padding-bottom: 32px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.header__heading_dos {
+  max-width: 481px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.header__heading_link {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 234.06px;
+  height: 48.6px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  transition: all 0.4s;
+}
+.header__heading_link:hover {
+  background: #EB443F;
+  border-radius: 30px;
+}
+
+.content {
+  background-image: url(img/Rectangle5.jpg);
+  height: 556px;
+}
+.content__box {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.content__box_product {
+  height: 300px;
+  border-radius: 18px;
+  width: 378px;
+  display: flex;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  flex-direction: column-reverse;
+  transition: all 0.3s;
+}
+.content__box_product:hover {
+  border: 3px solid #44D2FF;
+  border-radius: 16px;
+}
+.content__box_product_uno {
+  background-image: url(img/Game1.jpg);
+}
+.content__box_product_dos {
+  background-image: url(img/Game2.jpg);
+}
+.content__box_product_tres {
+  background-image: url(img/Game3.jpg);
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 735px;
+  }
+  .header__heading_uno {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .header__heading_dos {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .header__heading_tres {
+    display: flex;
+    justify-content: space-around;
+  }
+  .content {
+    height: 1221px;
+  }
+  .content__box {
+    gap: 32px;
+  }
+  .content__box_product {
+    width: 343px;
+  }
+}/*# sourceMappingURL=style.css.map */
+
+/* no se que paso

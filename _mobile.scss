@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+
+        height: 735px;
+
+        &__heading_uno {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__heading_dos {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &__heading_tres {
+            display: flex;
+            justify-content: space-around;
+
+            &_link {
+
+               }
+
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+    .content {
+        height: 1221px;
+
+        &__box {
+            gap: 32px
+        }
+
+        ;
+
+        &__box_product {
+            width: 343px;
+        }
+
+        ;
+
+
+    }
+
+}
