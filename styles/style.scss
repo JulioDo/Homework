@@ -19,7 +19,7 @@ body {
 
 
 .header {
-    background-image: url(/img/Rectangle1.jpg);
+    background-image: url(../img/Rectangle1.jpg);
     height: 1024px;
     background-size: cover;
     background-position: center;
@@ -83,7 +83,7 @@ body {
 
 
 .content {
-    background-image: url(img/Rectangle5.jpg);
+    background-image: url(../img/Rectangle5.jpg);
 
     height: 556px;
 
@@ -125,18 +125,18 @@ body {
     }
 
     &__box_product_uno {
-        background-image: url(img/Game1.jpg);
+        background-image: url(../img/Game1.jpg);
 
     }
 
     &__box_product_dos {
-        background-image: url(img/Game2.jpg);
+        background-image: url(../img/Game2.jpg);
 
     }
 
     &__box_product_tres {
 
-        background-image: url(img/Game3.jpg);
+        background-image: url(../img/Game3.jpg);
 
     }
 
